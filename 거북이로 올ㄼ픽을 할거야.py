@@ -1,0 +1,33 @@
+import turtle
+t=turtle.Turtle()
+c=['Red','Blue','Yellow','Green','Black']
+##   0     1        2       3       
+t.pensize(10)
+t.color("%s"%c[1])
+t.circle(20)
+###########
+t.penup()
+t.goto(55,0)
+t.pendown()
+t.color("%s"%c[4])
+t.circle(20)
+############
+t.penup()
+t.goto(110,0)
+t.pendown()
+t.color("%s"%c[0])
+t.circle(20)
+###########
+t.penup()
+t.goto(78,-30)
+t.pendown()
+t.color("%s"%c[3])
+t.circle(20)
+########
+t.penup()
+t.goto(27,-30)
+t.pendown()
+t.color("%s"%c[2])
+t.circle(20)
+###########
+turtle.done
