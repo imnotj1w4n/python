@@ -8,5 +8,5 @@ while n <=20 :
          if nn%3==0:
             print('x')
     else :
-        print('n') 
+        print('n') ㅇㄴㄹㅇㄴㅁㄹ
     n += 1
